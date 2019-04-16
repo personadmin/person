@@ -1,4 +1,4 @@
-# myproject
+# furniture
 
 ## Project setup
 ```

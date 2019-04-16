@@ -1,11 +1,12 @@
-module.exports ={
-    devServer:{
-        proxy:{
-            '/':{
-                target:'http://localhost:3000',
-                ws:false,
-                changeOrigin: true,
-            }
+module.exports={
+    // 代理
+    devServer: {
+        proxy: {
+            '/': {
+                target: 'http://localhost:3000',
+                ws: false,
+                changeOrigin: true
+            },
         }
     }
 }
